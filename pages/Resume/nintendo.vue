@@ -159,7 +159,7 @@ export default {
   background: #f0f5f9;
   min-height: 100vh;
 
-  ::v-deep p {
+  :deep(p) {
     font-family: "Nunito Sans Bold";
     color: #858796;
   }
@@ -183,17 +183,17 @@ export default {
   }
 }
 
-::v-deep .bg-primary {
+:deep(.bg-primary) {
   background-color: #0a70fd !important;
   color: #fffdff !important;
 }
 
-::v-deep .bg-secondary {
+:deep(.bg-secondary) {
   background-color: #8dc2f7 !important;
   color: #fffdff !important;
 }
 
-::v-deep .bg-warning {
+:deep(.bg-warning) {
   background-color: #eecd1f !important;
   color: #3b3742 !important;
 }

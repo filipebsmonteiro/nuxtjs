@@ -1,6 +1,6 @@
 <template>
   <b-overlay :show="searching">
-    <vueSelect
+    <!-- <vueSelect
       v-model="local_model"
       :options="options"
       :disabled="disabled"
@@ -19,7 +19,7 @@
           {{ `Digite ao menos ${min} letras` }}
         </em>
       </span>
-    </vueSelect>
+    </vueSelect> -->
   </b-overlay>
 </template>
 
@@ -29,7 +29,7 @@
 export default {
   name: "SelectComponent",
   components: {
-    vueSelect,
+    // vueSelect,
   },
   props: {
     model: null,

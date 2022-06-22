@@ -41,7 +41,7 @@ export default {
   height: 100vh;
 }
 
-::v-deep .nav-link {
+::deep(.nav-link) {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -63,12 +63,12 @@ export default {
   margin-right: 0.5rem;
 }
 
-::v-deep .dropdown-item {
+:deep(.dropdown-item) {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
 
-::v-deep .dropdown-menu {
+:deep(.dropdown-menu) {
   transform: none !important;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
