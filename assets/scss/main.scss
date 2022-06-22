@@ -1,0 +1,36 @@
+@import '@/assets/scss/fonts.scss';
+
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_mixins";
+
+@media screen and (min-width: 680px){
+  .container {
+    max-width: 680px;
+  }
+}
+
+.bg-custom {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  color: white !important;
+}
+
+.link{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border: solid white 2px;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 8px;
+  min-width: 90%;
+}
+
+// Finally load bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Load a custom font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
