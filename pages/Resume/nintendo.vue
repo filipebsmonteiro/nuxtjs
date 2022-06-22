@@ -22,7 +22,7 @@
         <b-col cols="3">
           <b-card class="card-avatar text-center rounded-20 border-bottom-larger" no-body>
             <span class="user-avatar d-flex shadow">
-              <img v-if="true" src="/img/core/perfil.jpeg" width="150" height="150">
+              <img v-if="true" src="~/assets/img/core/perfil.jpeg" width="150" height="150">
               i v-else class="fas fa-user fa-4x m-auto"/
             </span>
             <h1>Filipe Monteiro</h1>
@@ -111,22 +111,22 @@
                   <IconText icon-padding="2" text="Algumas Tecnologias" text-color="gray" title />
                 </b-card-header>
                 <div class="d-flex justify-content-around mt-3">
-                  <i v-b-tooltip class="fab fa-2x fa-php" style="color:mediumpurple;" title="PHP" />
-                  <i v-b-tooltip class="fab fa-2x fa-laravel" style="color:orangered;" title="Laravel" />
-                  <i v-b-tooltip class="fab fa-2x fa-symfony" title="Symfony" />
-                  <i v-b-tooltip class="fab fa-2x fa-npm" style="color:darkred;" title="NPM" />
+                  <i class="fab fa-2x fa-php" style="color:mediumpurple;" title="PHP" />
+                  <i class="fab fa-2x fa-laravel" style="color:orangered;" title="Laravel" />
+                  <i class="fab fa-2x fa-symfony" title="Symfony" />
+                  <i class="fab fa-2x fa-npm" style="color:darkred;" title="NPM" />
                 </div>
                 <div class="d-flex justify-content-around mt-3">
-                  <i v-b-tooltip class="fab fa-2x fa-yarn" title="Yarn" />
-                  <i v-b-tooltip class="fab fa-2x fa-node-js" style="color:forestgreen;" title="Node" />
-                  <i v-b-tooltip class="fab fa-2x fa-html5" style="color:orangered;" title="HTML5" />
-                  <i v-b-tooltip class="fab fa-2x fa-bootstrap" style="color:rebeccapurple;" title="Bootstrap 3 e 4" />
+                  <i class="fab fa-2x fa-yarn" title="Yarn" />
+                  <i class="fab fa-2x fa-node-js" style="color:forestgreen;" title="Node" />
+                  <i class="fab fa-2x fa-html5" style="color:orangered;" title="HTML5" />
+                  <i class="fab fa-2x fa-bootstrap" style="color:rebeccapurple;" title="Bootstrap 3 e 4" />
                 </div>
                 <div class="d-flex justify-content-around mt-3 mb-3">
-                  <i v-b-tooltip class="fab fa-2x fa-css3-alt" style="color:dodgerblue;" title="CSS e SCSS" />
-                  <i v-b-tooltip class="fab fa-2x fa-sass" style="color:deeppink;" title="SASS" />
-                  <i v-b-tooltip class="fab fa-2x fa-vuejs" style="color:mediumseagreen;" title="Vue JS" />
-                  <i v-b-tooltip class="fab fa-2x fa-react" style="color:dodgerblue;" title="React JS" />
+                  <i class="fab fa-2x fa-css3-alt" style="color:dodgerblue;" title="CSS e SCSS" />
+                  <i class="fab fa-2x fa-sass" style="color:deeppink;" title="SASS" />
+                  <i class="fab fa-2x fa-vuejs" style="color:mediumseagreen;" title="Vue JS" />
+                  <i class="fab fa-2x fa-react" style="color:dodgerblue;" title="React JS" />
                 </div>
               </b-card>
             </b-col>

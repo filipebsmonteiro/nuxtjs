@@ -1,7 +1,7 @@
 <template>
   <div class="text-center empty d-flex flex-column w-75 m-auto">
     <h4 class="m-5">{{ title ? title : 'No data found' }}</h4>
-    <img src="img/core/undraw_file_searching_duff.svg"/>
+    <img src="~/assets/img/core/undraw_file_searching_duff.svg"/>
     <slot/>
   </div>
 </template>
