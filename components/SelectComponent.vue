@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import vueSelect from 'vue-select'
+// import vueSelect from 'vue-select'
 
 export default {
   name: "SelectComponent",
