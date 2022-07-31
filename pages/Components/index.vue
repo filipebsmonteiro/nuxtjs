@@ -100,8 +100,37 @@
       </div>
       <hr>
 
-      <h1 />
-      <div class="mt-5 mb-5" />
+      <h1>Shadows Inside</h1>
+      <div class="mt-5 mb-5 d-inline-flex justify-content-around bg-white p-4 rounded">
+        <div
+          style="
+            height: 50px;
+            width: 50px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          "
+        />
+        <div
+          style="
+            height: 50px;
+            width: 50px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          "
+        />
+        <div
+          style="
+            height: 50px;
+            width: 50px;
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+          "
+        />
+        <div
+          style="
+            height: 50px;
+            width: 50px;
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+          "
+        />
+      </div>
       <hr>
     </div>
   </div>
